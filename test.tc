@@ -1,0 +1,9 @@
+fun map(elements, func)
+       space NE = []
+
+       for i = 0 to len(elements) then
+               append(NE, func(elements/i))
+        end
+
+        return NE
+end
